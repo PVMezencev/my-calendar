@@ -10,8 +10,8 @@ go get github.com/PVMezencev/my-calendar
 package main
 
 import (
-	"log"
 	calendar "github.com/PVMezencev/my-calendar"
+	"log"
 )
 
 func main() {
@@ -35,5 +35,4 @@ func main() {
 		log.Printf("----------")
 	}
 }
-
 ```

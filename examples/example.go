@@ -1,10 +1,13 @@
 package main
 
-import "log"
+import (
+	calendar "github.com/PVMezencev/my-calendar"
+	"log"
+)
 
 func main() {
 	// Инициализируем календарь, в котором первый день недели - понедельник.
-	clr := InitCalendar(true)
+	clr := calendar.InitCalendar(true)
 	// Получаем сегодня.
 	today := clr.Today()
 	// Получаем месяц.
